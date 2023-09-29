@@ -3,6 +3,6 @@
 A news reader app using hacker news api.
 
 ## Features
-- Implicit anmated widgets
+- Implicit animated widgets
 - built_value
 - JSON serialization
