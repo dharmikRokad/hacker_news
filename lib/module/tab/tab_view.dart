@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_expandable_fab/flutter_expandable_fab.dart';
 import 'package:get/get.dart';
-import 'package:hacker_news/module/article_search.dart';
 import 'package:hacker_news/module/new_articles/new_articles_view.dart';
 import 'package:hacker_news/module/top_articles/top_articles_view.dart';
 import 'package:hacker_news/ui/components/headline.dart';

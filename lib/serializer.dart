@@ -5,7 +5,6 @@
 library serializers;
 
 import 'package:built_collection/built_collection.dart';
-import 'package:built_value/json_object.dart';
 import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart';
 import 'package:hacker_news/data/models/articles.dart';
@@ -27,5 +26,5 @@ part 'serializer.g.dart';
   Article,
 ])
 Serializers serializers = _$serializers;
-Serializers standardSerializers = (_$serializers.toBuilder()
-  ..addPlugin(StandardJsonPlugin())).build();
+Serializers standardSerializers =
+    (_$serializers.toBuilder()..addPlugin(StandardJsonPlugin())).build();

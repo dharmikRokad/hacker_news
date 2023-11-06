@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hacker_news/data/themes/theme_controller.dart';
 import 'package:hacker_news/utils/extensions/string_extension.dart';
-import '../../../utils/extensions/theme_mode_extension.dart';
 
 class SettingController extends GetxController {
   final ThemeController _themeController = Get.find<ThemeController>();

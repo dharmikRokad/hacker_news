@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hacker_news/data/local_auth/local_auth.dart';
-import 'package:hacker_news/data/providers/article_provider.dart';
 import 'package:hacker_news/module/top_articles/top_articles_controller.dart';
 import 'package:hacker_news/routes/app_routes.dart';
 import '../article_search.dart';
 import '../new_articles/new_articles_controller.dart';
 
 class TabsController extends GetxController {
-
   @override
   void onInit() {
     update();

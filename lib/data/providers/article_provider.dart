@@ -1,7 +1,5 @@
-import 'dart:convert';
 import 'dart:developer';
 import 'package:dio/dio.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:hacker_news/data/models/articles.dart';
 import 'package:hacker_news/data/remote/api_services.dart';
 
